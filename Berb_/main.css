@@ -52,7 +52,7 @@ header ul li {
     margin-left: 76px;
     color: #C6C6C7;
     font-family: var(--ubuntu);
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24.13px;
 }
@@ -84,8 +84,6 @@ header ul li .fa-phone {
 
 
 
-
-
 /* ===-started styles of intro section-=== */
 .intro {
     width: 100%;
@@ -93,7 +91,6 @@ header ul li .fa-phone {
     margin-top: 0;
     background-color: #171720;
 }
-
 
 .intro .intro_coverage {
     width: 100%;
@@ -120,7 +117,6 @@ header ul li .fa-phone {
     background-color: rgba(255, 0, 0, 0);
 }
 
-
 .intro nav ul {
     width: 680px;
     height: 65px;
@@ -138,7 +134,7 @@ header ul li .fa-phone {
 .intro nav ul li a {
     text-decoration: none;
     font-family: var(--stix);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 35px;
     color: #161722;
@@ -158,7 +154,7 @@ header ul li .fa-phone {
 
 .intro nav .btn-contact {
     font-family: var(--stix);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 35px;
     text-align: left;
@@ -210,7 +206,7 @@ header ul li .fa-phone {
 }
 
 .intro_coverage-btns .intro_coverage-btn1 {
-    width: 220px;
+    width: 200px;
     height: 70px;
     background-color: #000000;
     border-radius: 50px;
@@ -223,7 +219,7 @@ header ul li .fa-phone {
 
 .intro_coverage-btns .intro_coverage-btn1 p {
     font-family: var(--stix);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 35px;
     text-align: left;
@@ -254,5 +250,214 @@ header ul li .fa-phone {
 .intro_coverage-btns .intro_coverage-btn2 .fa-arrow-trend-up {
     margin-left: 6px;
 }
-
 /* ===/-ended styles of intro section-=== */
+
+
+
+
+
+
+
+/* ===-started styles of main section-=== */
+main{
+    width: 100%;
+    height: auto;
+    background-color:#161721;
+}
+
+main .main-infos{
+    width: 100%;
+    height:140px;
+    background-color: rgba(126, 252, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    padding-top:18px;
+}
+
+
+main .main-infos .main-infos_item{
+    width:160px;
+    height:auto;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .main-infos .main-infos_item h1{
+    font-family:var(--stix);
+    font-size:50px;
+    font-weight: 400;
+    line-height:70px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+main .main-infos .main-infos_item p{
+    font-family:var(--ubuntu);
+    font-size:12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #C6C6C7;    
+    text-align: center;
+}
+
+
+main .main_links{
+    width: 1300px;
+    height: 400px;
+    background-color:rgba(0, 255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+main .main_links .main_links-h1{
+    width:520px;
+    height: auto;
+    background-color: #44ddd300;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 152px;
+}
+
+main .main_links .main_links-h1 h2 a{
+    font-family:var(--stix);
+    font-size:50px;
+    font-weight: 400;
+    line-height: 112.5px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+main .main_links .main_links-h1 h2{
+    color: #FFFFFF;
+}
+
+
+main .main_links .main-links_txt{
+    font-family:var(--ubuntu);
+    font-size:24px;
+    font-weight: 400;
+    line-height: 39.07px; 
+    color: #C6C6C7;
+    margin-left: 152px;
+    width: 740px;
+}
+
+main .main_links .main-links_btn{
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-left: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+main .main_links .main-links_btn p{
+    font-family:var(--stix);
+    font-size:18px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #161722;
+}
+
+
+.main-service{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top:120px;
+}
+
+
+.main-service h2{
+    font-family: var(--stix);
+    font-size:70px;
+    font-weight: 400;
+    line-height: 112.5px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 152px;
+}
+
+
+.main-service .main-service_box{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 60px;
+    padding-left: 152px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 56px;
+}
+
+.main-service .main-service_box img{
+     width: 300px;
+     height: 313px;
+}
+
+
+
+.service-border{
+    width:80%;
+    margin-left: 152px;
+    margin-bottom: 76px;
+    border-bottom: 1px solid #707070;
+}
+
+.service-box{
+    width: 400px;
+    height: 100%;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.service-box h3{
+    font-family:var(--ubuntu);
+    font-size:32px;
+    font-weight: 400;
+    line-height: 51.71px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.service-box p{
+    font-family:var(--ubuntu);
+    font-size:26px;
+    font-weight: 300;
+    line-height: 39.07px;
+    text-align: left;
+    color: #C6C6C7;
+}
+
+.service-box a{
+    text-decoration: none;
+    font-family: var(--ubuntu);
+    font-size:20px;
+    font-weight: 400;
+    line-height: 34.47px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* ===/-ended styles of main section-=== */
+
+
+
+
+
+
+
+
+
+
